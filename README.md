@@ -1,2 +1,2 @@
-# exerc-cio_css
+# portal_de_noticias
 Exercicio EBAC
