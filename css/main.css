@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body>header {
+    background-color: #161147;
+    padding: 16px 0;
+    color: #a2b9e4;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 20px;
+}
+
+header li a {
+    color: #a2b9e4;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+section h2{
+    font-style: oblique;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article time {
+    color: #353535;
+}
+.articles article a {
+    background-color: #115ae050;
+    color: rgba(255, 255, 255, 0.911);
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+
+#sports {
+    background-color: rgba(115, 189, 92, 0.575);
+}
+
+#sports .articles article a {
+    background-color: #000000bb;
+}
+
+#economy {
+    background-color :#dce01183;
+}
+
+#economy .articles article a {
+    background-color: #000000bb;
+}
+
+#tecnology {
+    background-color :rgba(30, 46, 95, 0.705);
+}
+
+#tecnology .articles article a {
+    background-color: #000000bb;
+}
+
+#enterteinment {
+    background-color :#e09711b0;
+}
+
+#enterteinment .articles article a {
+    background-color: #000000bb;
+}
+
